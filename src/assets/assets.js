@@ -1,8 +1,6 @@
-import logo from "./logo.svg";
 import search_icon from "./search_icon.svg";
 import cross_icon from "./cross_icon.svg";
 import upload_area from "./upload_area.svg";
-import sketch from "./sktech.svg";
 import microsoft_logo from "./microsoft_logo.svg";
 import walmart_logo from "./walmart_logo.svg";
 import accenture_logo from "./accenture_logo.svg";
@@ -51,10 +49,10 @@ import photo2 from "./photo2.png";
 import photo3 from "./photo3.png";
 import photo4 from "./photo4.png";
 import photo5 from "./photo5.png";
+import logo from "./logo.png";
 
 export const assets = {
   search_icon,
-  sketch,
   microsoft_logo,
   walmart_logo,
   accenture_logo,
@@ -101,6 +99,7 @@ export const assets = {
   photo3,
   photo4,
   photo5,
+  logo,
 };
 
 export const dummyEducatorData = {
