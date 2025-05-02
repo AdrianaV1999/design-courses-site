@@ -50,7 +50,7 @@ import photo3 from "./photo3.png";
 import photo4 from "./photo4.png";
 import photo5 from "./photo5.png";
 import logo from "./logo.png";
-
+import sktech from "./sktech.png";
 export const assets = {
   search_icon,
   microsoft_logo,
@@ -100,6 +100,7 @@ export const assets = {
   photo4,
   photo5,
   logo,
+  sktech,
 };
 
 export const dummyEducatorData = {
