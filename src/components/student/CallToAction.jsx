@@ -14,7 +14,7 @@ const CallToAction = () => {
         and creative insights delivered straight to your inbox.
       </p>
       <div className="flex items-center font-medium gap-6 mt-4">
-        <button className="px-10 py-3 rounded-full text-white bg-purple-800 hover:bg-purple-900 transition">
+        <button className="px-9 py-3 rounded-full text-white bg-purple-800 hover:bg-purple-900 transition">
           Get Started
         </button>
       </div>
