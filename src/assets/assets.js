@@ -51,7 +51,17 @@ import photo4 from "./photo4.png";
 import photo5 from "./photo5.png";
 import logo from "./logo.png";
 import sktech from "./sktech.png";
+import figma from "./figma.png";
+import canva from "./canva.png";
+import blender from "./blender.png";
+import adobe from "./adobe.png";
+import sketch from "./sketch.png";
 export const assets = {
+  figma,
+  canva,
+  blender,
+  adobe,
+  sketch,
   search_icon,
   microsoft_logo,
   walmart_logo,
