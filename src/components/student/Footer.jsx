@@ -5,7 +5,7 @@ import { Navigate } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-purple-100 sm:px-10 md:px-20 lg:px-40 text-left w-full mt-10">
+    <footer className="bg-purple-100/70 sm:px-10 md:px-20 lg:px-40 text-left w-full mt-10">
       <div className="flex flex-col md:flex-row items-start px-8 md:px-0 justify-center gap-10 md:gap-34 py-10 border-b border-gray-300">
         <div className="flex flex-col md:items-start items-center w-full">
           <img
