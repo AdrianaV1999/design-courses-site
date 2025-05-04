@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`flex items-center justify-between px-4 sm:px-10 md:px-30 lg:px-55 border-b border-gray-400 py-4 ${
+      className={`flex items-center justify-between px-5 sm:px-10 md:px-20 lg:px-36  border-b border-gray-400 py-4 ${
         isCourseListPage ? "bg-purple-100/70" : "bg-purple-100/70"
       }`}
     >
@@ -25,7 +25,7 @@ const Navbar = () => {
         onClick={() => navigate("/")}
         src={assets.logo}
         alt="Logo"
-        className="w-28 lg:32 cursor-pointer"
+        className="w-32 lg:32 cursor-pointer"
       />
       <div className="hidden md:flex items-center gap-5 text-gray-600">
         <div className="flex items-center gap-5">

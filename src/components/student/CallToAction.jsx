@@ -3,7 +3,7 @@ import { assets } from "../../assets/assets";
 
 const CallToAction = () => {
   return (
-    <div className="flex flex-col items-center gap-4 pt-10 pb-24 px-8 md:px-0">
+    <div className="flex flex-col items-center gap-4 px-8 md:px-36 pt-10 pb-20">
       <h1 className="text-xl md:text-4xl text-gray-800 font-semibold">
         Join Our <span className="text-purple-800"> </span>
         <span className="text-purple-800">Creative </span>Joruney!
