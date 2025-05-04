@@ -3,6 +3,7 @@ import { assets } from "../../assets/assets";
 import { Link } from "react-router-dom";
 import { useClerk, UserButton, useUser } from "@clerk/clerk-react";
 import { AppContext } from "../../context/AppContext";
+import { SignOutButton } from "@clerk/clerk-react";
 
 const Navbar = () => {
   const { navigate, isEducator } = useContext(AppContext);
@@ -35,7 +36,11 @@ const Navbar = () => {
         </div>
 
         {user ? (
-          <UserButton />
+          <UserButton
+            signOut={{
+              redirectUrl: "/design-courses-site/",
+            }}
+          />
         ) : (
           <button
             onClick={() => openSignIn()}
@@ -58,7 +63,11 @@ const Navbar = () => {
             </>
           )}
           {user ? (
-            <UserButton />
+            <UserButton
+              signOut={{
+                redirectUrl: "/design-courses-site/",
+              }}
+            />
           ) : (
             <button onClick={() => openSignIn()}>
               <img src={assets.user_icon} alt="user"></img>
