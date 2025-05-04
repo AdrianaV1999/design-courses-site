@@ -25,7 +25,7 @@ const CoursesList = () => {
   }, [allCourses, input]);
   return (
     <>
-      <div className="relative md:px-40 px-8 pt-20 text-left">
+      <div className="relative md:px-55 px-8 pt-10 md:pt-20 pb-10 text-left">
         <div className="flex md:flex-row flex-col gap-6 items-start justify-between w-full">
           <div>
             <h1 className="text-4xl font-semibold text-gray-800">

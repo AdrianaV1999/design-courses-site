@@ -8,7 +8,7 @@ const Navbar = () => {
   const educatorData = dummyEducatorData;
   const { user } = useUser();
   return (
-    <div className="flex items-center justify-between px-4 md:px-8 border-b border-gray-500 py-3">
+    <div className="flex items-center justify-between px-4 md:px-8 border-b border-gray-500 py-3 bg-purple-100/70">
       <Link to="/">
         <img src={assets.logo} alt="Logo" className="w-28 lg:w-32" />
       </Link>

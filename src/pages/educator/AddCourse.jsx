@@ -150,7 +150,7 @@ const AddCourse = () => {
                 <img
                   src={assets.file_upload_icon}
                   alt=""
-                  className="p-3 bg-gray-200 rounded"
+                  className="p-3 bg-gray-200 rounded cursor-pointer"
                 />
                 <input
                   type="file"

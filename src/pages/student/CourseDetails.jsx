@@ -43,7 +43,7 @@ const CourseDetails = () => {
 
   return (
     <>
-      <div className="flex md:flex-row flex-col-reverse gap-10 relative items-start justify-between md:px-36 px-8 md:pt-30 pt-20 text-left">
+      <div className="flex md:flex-row flex-col-reverse gap-10 relative items-start justify-between md:px-55 px-8 md:pt-20 pt-10 text-left">
         <div className="absolute top-0 left-0 w-full h-[500px] bg-gradient-to-b from-purple-100/70 z-[0]"></div>
 
         {/* left side */}
@@ -83,10 +83,8 @@ const CourseDetails = () => {
             </p>
           </div>
           <p className="text-sm">
-            Course by{" "}
-            <span className="text-purple-800 underline">
-              {courseData.educator.name}
-            </span>
+            Course by {""}
+            <span className="text-purple-800 underline">Creativa</span>
           </p>
 
           {/* Course Structure */}

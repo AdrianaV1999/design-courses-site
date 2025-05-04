@@ -22,7 +22,7 @@ const MyEnrollments = () => {
   ]);
   return (
     <>
-      <div className="md:px-36 px-8 pt-10">
+      <div className="md:px-55 px-8 pt-10 md:pt-20 pb-10 md:pb-20">
         <h1 className="text-2xl font-semibold">My Enrollments</h1>
         <table className="md:table-auto table-fixed w-full overflow-hidden border mt-10">
           <thead className="text-gray-900 border border-gray-500/20 text-sm text-left max-sm:hidden">

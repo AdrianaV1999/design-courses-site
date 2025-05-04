@@ -34,7 +34,7 @@ const Player = () => {
   }, [enrolledCourses]);
   return (
     <>
-      <div className="p-10 sm:p-15 flex flex-col-reverse md:grid md:grid-cols-2 gap-10 md:px-36">
+      <div className="pt-10 md:pt-20 pb-10 md:pb-20 flex flex-col-reverse md:grid md:grid-cols-2 gap-10 md:px-55 px-10">
         <div className="text-gray-800">
           <h2 className="text-2xl font-semibold">Course Structure</h2>
           <div className="pt-5">

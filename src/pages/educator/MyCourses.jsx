@@ -15,7 +15,7 @@ const MyCourses = () => {
   }, []);
 
   return courses ? (
-    <div className="h-screen flex flex-col items-start justify-between gap-8 md:p-8 md:pb-0 p-4 pt-8 pb-0">
+    <div className="h-screen flex flex-col items-start justify-between gap-8 md:p-10 md:pb-0 p-4 pt-8 pb-0">
       <div className="w-full">
         <h2 className="pb-4 text-lg font-medium">My Courses</h2>
         <div className="flex flex-col items-center max-w-4xl w-full overflow-hidden rounded-md bg-white border border-gray-500/20">
@@ -32,7 +32,7 @@ const MyCourses = () => {
                 </th>
               </tr>
             </thead>
-            <tbody className="text-sm text-gray-700">
+            <tbody className="text-sm text-gray-600">
               {courses.map((course) => (
                 <tr key={course._id} className="border-b border-gray-500/20">
                   <td className="md:px-4 pl-2 md:p-4 py-3 flex items-center space-x-3 truncate">

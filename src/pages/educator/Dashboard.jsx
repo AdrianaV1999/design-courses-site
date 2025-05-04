@@ -16,7 +16,7 @@ const Dashboard = () => {
   }, []);
 
   return dashboardData ? (
-    <div className="min-h-screen flex flex-col items-start justify-between gap-8 md:p-8 md:pb-0 p-4 pt-8 pb-0">
+    <div className="min-h-screen flex flex-col items-start justify-between gap-8 md:p-8 md:pb-0 p-4 pt-8 pb-0 ">
       <div className="space-y-5">
         <div className="flex flex-wrap gap-5 items-center">
           <div className="flex items-center gap-3 shadow-card border border-purple-800 p-4 w-56 rounded-md">
@@ -60,7 +60,7 @@ const Dashboard = () => {
                 <th className="px-4 py-3 font-semibold">Course Title</th>
               </tr>
             </thead>
-            <tbody className="text-sm text-gray-500">
+            <tbody className="text-sm text-gray-600">
               {dashboardData.enrolledStudentsData.map((item, index) => (
                 <tr key={index} className="border border-gray-500/20">
                   <td className="px-4 py-3 text-center hidden sm:table-cell">

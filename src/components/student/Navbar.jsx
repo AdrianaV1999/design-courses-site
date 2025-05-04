@@ -12,8 +12,8 @@ const Navbar = () => {
 
   return (
     <div
-      className={`flex items-center justify-between px-4 sm:px-10 md:px-20 lg:px-40 border-b border-gray-400 py-4 ${
-        isCourseListPage ? "bg-white" : "bg-purple-100/70"
+      className={`flex items-center justify-between px-4 sm:px-10 md:px-30 lg:px-55 border-b border-gray-400 py-4 ${
+        isCourseListPage ? "bg-purple-100/70" : "bg-purple-100/70"
       }`}
     >
       <img

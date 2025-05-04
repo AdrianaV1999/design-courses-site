@@ -9,7 +9,7 @@ const CallToAction = () => {
         <span className="text-purple-800">Creative </span>Joruney!
       </h1>
 
-      <p className="text-gray-500 sm:text-sm">
+      <p className="md:text-base text-gray-600">
         Subscribe to our newsletter for the latest updates, exclusive content,
         and creative insights delivered straight to your inbox.
       </p>
