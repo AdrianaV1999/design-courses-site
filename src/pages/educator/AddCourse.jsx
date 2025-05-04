@@ -14,6 +14,7 @@ const AddCourse = () => {
   const [chapters, setChapters] = useState([]);
   const [showPopup, setShowPopup] = useState(false);
   const [currentChapterId, setCurrentChapterId] = useState(null);
+  const [message, setMessage] = useState("");
 
   const [lectureDetails, setLectureDetails] = useState({
     lectureTitle: "",
@@ -95,6 +96,7 @@ const AddCourse = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setMessage("Course added successfully!");
   };
 
   useEffect(() => {
@@ -349,6 +351,11 @@ const AddCourse = () => {
               ADD
             </button>
           </div>
+          {message && (
+            <div className="mt-2 p-3 rounded-md bg-green-100 text-green-800 border border-green-400">
+              {message}
+            </div>
+          )}
         </form>
       </div>
     </>
