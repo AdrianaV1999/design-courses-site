@@ -40,7 +40,10 @@ const Navbar = () => {
         </div>
 
         {user ? (
-          <SignOutButton className="bg-purple-800 text-white px-5 py-2 rounded-full hover:bg-purple-900 transition">
+          <SignOutButton
+            redirectUrl="https://adrianav1999.github.io/design-courses-site/"
+            className="bg-purple-800 text-white px-5 py-2 rounded-full hover:bg-purple-900 transition"
+          >
             Sign Out
           </SignOutButton>
         ) : (
@@ -65,7 +68,10 @@ const Navbar = () => {
             </>
           )}
           {user ? (
-            <SignOutButton className="bg-purple-800 text-white px-5 py-2 rounded-full hover:bg-purple-900 transition">
+            <SignOutButton
+              redirectUrl="https://adrianav1999.github.io/design-courses-site/"
+              className="bg-purple-800 text-white px-5 py-2 rounded-full hover:bg-purple-900 transition"
+            >
               Sign Out
             </SignOutButton>
           ) : (
