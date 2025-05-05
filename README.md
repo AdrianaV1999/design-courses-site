@@ -9,7 +9,7 @@ A responsive website for learning design tools. Built using **React**, **Vite** 
 ## Features
 
 - **Authentication with Clerk** for user login and registration
-- **Separate routes** for Educators and Students
+- **Separate routes** for authenticated and unauthenticated users
 - **Search functionality** for design courses
 - **Watch YouTube tutorials** directly from course pages
 - **Rate courses** (frontend-only) to provide feedback
