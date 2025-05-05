@@ -12,7 +12,7 @@ if (!PUBLISHABLE_KEY) {
 }
 
 createRoot(document.getElementById("root")).render(
-  <HashRouter basename="/design-courses-site">
+  <BrowserRouter basename="/design-courses-site">
     <ClerkProvider
       publishableKey={PUBLISHABLE_KEY}
       afterSignOutUrl="/design-courses-site"
@@ -22,5 +22,5 @@ createRoot(document.getElementById("root")).render(
         <App />
       </AppContextProvider>
     </ClerkProvider>
-  </HashRouter>
+  </BrowserRouter>
 );
