@@ -8,12 +8,15 @@ A responsive website for learning design tools like Figma, Sketch, and Photoshop
 
 ## Features
 
-- **Authentication** with [Clerk](https://clerk.dev) for user login and registration
-- **Separate routes** and pages for **educators** and **students**
-- Watch **YouTube video tutorials** directly from the course pages
-- **Search functionality** for available design courses
-- **Rate** courses (frontend-only) 
-- Fully **responsive design** for all screen sizes
+- **Authentication with Clerk** for user login and registration
+- **Separate routes** for Educators and Students
+- **Watch YouTube tutorials** directly from course pages
+- **Search functionality** for design courses
+- **Rate courses** (frontend-only) to provide feedback
+- **Fully responsive design** for all screen sizes
+- **Educator Features:**
+  - Add new courses
+  - View their courses and enrolled students
 
 ---
 
