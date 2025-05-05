@@ -10,8 +10,8 @@ A responsive website for learning design tools. Built using **React**, **Vite** 
 
 - **Authentication with Clerk** for user login and registration
 - **Separate routes** for Educators and Students
-- **Watch YouTube tutorials** directly from course pages
 - **Search functionality** for design courses
+- **Watch YouTube tutorials** directly from course pages
 - **Rate courses** (frontend-only) to provide feedback
 - **Fully responsive design** for all screen sizes
 - **Educator Features:**
@@ -40,8 +40,6 @@ A responsive website for learning design tools. Built using **React**, **Vite** 
 
 ### Key Components
 
-- **Shared**:  
-  - `Navbar`, `Footer`  
 - **Educator**:  
   - `Sidebar`, `Navbar`, `Footer`    
 - **Student**:  
