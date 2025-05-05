@@ -15,8 +15,12 @@ createRoot(document.getElementById("root")).render(
   <BrowserRouter basename="/design-courses-site">
     <ClerkProvider
       publishableKey={PUBLISHABLE_KEY}
-      afterSignOutUrl="/"
-      fallbackRedirectUrl="/"
+      afterSignOutUrl="/design-courses-site"
+      forceRedirectUrl="https://adrianav1999.github.io/design-courses-site/"
+      fallbackRedirectUrl="https://adrianav1999.github.io/design-courses-site/"
+      allowedRedirectOrigins={[
+        "https://adrianav1999.github.io/design-courses-site/",
+      ]}
     >
       <AppContextProvider>
         <App />
