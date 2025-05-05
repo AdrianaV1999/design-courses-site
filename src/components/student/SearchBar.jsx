@@ -28,7 +28,7 @@ const SearchBar = ({ data }) => {
       />
       <button
         type="submit"
-        className="bg-purple-800 text-white md:px-10 px-7 md:py-3 py-2 mx-1 rounded-full hover:bg-purple-900 transition"
+        className="bg-purple-800 text-white md:px-10 px-7 md:py-3 py-2 mx-1 rounded-full hover:bg-purple-900 transition cursor-pointer"
       >
         Search
       </button>

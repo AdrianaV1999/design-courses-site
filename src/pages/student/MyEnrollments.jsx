@@ -68,7 +68,7 @@ const MyEnrollments = () => {
                 <td className="px-4 py-3 max-sm:text-right">
                   <button
                     onClick={() => navigate(`/player/${course._id}`)}
-                    className="px-4 sm:px-5 py-1.5 sm:py-2 bg-purple-800 max-sm:text-xs text-white rounded-full"
+                    className="px-4 sm:px-5 py-1.5 sm:py-2 bg-purple-800 max-sm:text-xs text-white rounded-full cursor-pointer"
                   >
                     {progressArray[index] &&
                     progressArray[index].lectureCompleted /
