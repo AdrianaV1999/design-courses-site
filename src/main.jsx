@@ -16,8 +16,8 @@ createRoot(document.getElementById("root")).render(
     <ClerkProvider
       publishableKey={PUBLISHABLE_KEY}
       afterSignOutUrl="/design-courses-site"
-      forceRedirectUrl="https://adrianav1999.github.io/design-courses-site/"
-      fallbackRedirectUrl="https://adrianav1999.github.io/design-courses-site/"
+      forceRedirectUrl={process.env.CLERK_SIGN_UP_FORCE_REDIRECT_URL}
+      fallbackRedirectUrl={process.env.CLERK_SIGN_IN_FALLBACK_REDIRECT_URL}
     >
       <AppContextProvider>
         <App />
