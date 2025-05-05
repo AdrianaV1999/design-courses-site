@@ -147,7 +147,7 @@ const CourseDetails = () => {
                                   Preview
                                 </p>
                               )}
-                              <p>{lecture.lectureDuration}</p>
+
                               <p>
                                 {humanizeDuration(
                                   lecture.lectureDuration * 60 * 1000,
