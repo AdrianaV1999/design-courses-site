@@ -15,6 +15,7 @@ import Navbar from "./components/student/Navbar";
 import { SignedIn } from "@clerk/clerk-react";
 const App = () => {
   const isEducatorRoute = useMatch("/educator/*");
+
   return (
     <div className="text-default min-h-screen bg-white">
       {!isEducatorRoute && <Navbar />}
