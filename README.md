@@ -1,6 +1,8 @@
 # 🎨 Design Courses Site
 
-A responsive website for learning design tools. Built using **React**, **Vite** and **Tailwind CSS**, the platform simulates a frontend for a course-based learning experience with auth-based routing and UI.
+A responsive website for learning design tools. Built using **React**, **Vite** and **Tailwind CSS**. The platform simulates a frontend for a course-based learning experience with **auth-based routing**, focusing on **clean UI/UX**, a **responsive layout** and a **component-based structure**.
+
+ 
 
 **Live Site:** [https://adrianav1999.github.io/design-courses-site/](https://adrianav1999.github.io/design-courses-site/)
 
