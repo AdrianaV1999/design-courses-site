@@ -1,12 +1,11 @@
 # 🎨 Design Courses Site
 
-A responsive website for learning design tools. Built using **React**, **Vite** and **Tailwind CSS**. The platform simulates a frontend for a course-based learning experience with **auth-based routing**, focusing on **clean UI/UX** and a **component-based structure**.
+A responsive website for learning design tools built using **React** + **Vite** and **Tailwind CSS**. It provides course-based learning content with **auth-based routing**, **component-based structure** and focused on **clean UI/UX**.
 
- 
+## Live Preview
 
-**Live Site:** [https://adrianav1999.github.io/design-courses-site/](https://adrianav1999.github.io/design-courses-site/)
-
----
+Check out the live site here:  
+[https://adrianav1999.github.io/design-courses-site/](https://adrianav1999.github.io/design-courses-site/)
 
 ## Features
 
@@ -19,8 +18,6 @@ A responsive website for learning design tools. Built using **React**, **Vite** 
 - **Educator Features:**
   - Add new courses
   - View their courses and enrolled students
-
----
 
 ## Project Structure
 
@@ -47,17 +44,13 @@ A responsive website for learning design tools. Built using **React**, **Vite** 
 - **Student**:  
   - `Hero`, `CourseCard`, `CourseSection`, `CallToAction`, `SearchBar`, `Rating`, `TestimonialsSection`, `Tools`, `Loading`, `Navbar`, `Footer`  
 
----
-
 ## Data Handling
 
 - All course data is loaded from the `assets.js` file (mock data)
 
----
-
 ## App Context Logic
 
-The app uses React Context API via `AppContext.js` to manage global state such as:
+The app uses **React Context API** via `AppContext.js` to manage global state such as:
 
 - Course lists and enrollment
 - Educator status toggle
@@ -65,20 +58,15 @@ The app uses React Context API via `AppContext.js` to manage global state such a
 - Ratings, number of lectures, and chapter time per course
 - Navigation control
 
----
+## Techologies Used
 
-## Tech Stack
-
-- **Frontend:** React + Vite  
+- **Frontend:** React.js + Vite  
 - **Styling:** Tailwind CSS  
-- **Authentication:** Clerk  
+- **Authentication:** [Clerk](https://clerk.com/) for user login and registration
 - **Routing:** React Router  
 - **State Management:** React Context API  
 - **Utilities:** [humanize-duration](https://www.npmjs.com/package/humanize-duration) – used to format course durations into a human-readable format
 
 ---
 
-## Notes
-
-- This is a **frontend-only demo project**, focused on showcasing clean UI/UX, component organization, and application state handling
-- All course data is simulated with local static assets
+This project highlights practical experience with React.js, authentication, routing, state management and responsive design.
