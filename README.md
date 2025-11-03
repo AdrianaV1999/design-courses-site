@@ -60,12 +60,12 @@ The app uses **React Context API** via `AppContext.js` to manage global state, i
 
 ## Techologies Used
 
-- **Frontend:** React.js + Vite  
-- **Styling:** Tailwind CSS  
-- **Authentication:** [Clerk](https://clerk.com/) for user login and registration
-- **Routing:** React Router  
-- **State Management:** React Context API  
-- **Utilities:** [humanize-duration](https://www.npmjs.com/package/humanize-duration) – used to format course durations into a human-readable format
+- **React.js + Vite** for building the frontend interface
+- **Tailwind CSS** for styling components
+- **[Clerk](https://clerk.com/)** for user login and registration
+- **React Router** for routing and navigation
+- **React Context API** for global state management
+- **[humanize-duration](https://www.npmjs.com/package/humanize-duration)** for formatting course durations into a human-readable format
 
 ## Installation / How to Run
 
