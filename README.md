@@ -1,6 +1,6 @@
 # 🎨 Design Courses Site
 
-A responsive website for learning design tools built using **React** + **Vite** and **Tailwind CSS**. It provides course-based learning content with **auth-based routing**, **component-based structure** and focused on **clean UI/UX**.
+A responsive website for learning design tools built using **React** + **Vite** and **Tailwind CSS**. The app focuses on **clean UI/UX** and offers course-based learning content, featuring **authentication-based routing** and a **component-based structure**.
 
 ## Live Preview
 
