@@ -50,7 +50,7 @@ Check out the live site here:
 
 ## App Context Logic
 
-The app uses **React Context API** via `AppContext.js` to manage global state such as:
+The app uses **React Context API** via `AppContext.js` to manage global state, including:
 
 - Course lists and enrollment
 - Educator status toggle
