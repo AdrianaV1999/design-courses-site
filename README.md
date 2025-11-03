@@ -67,6 +67,28 @@ The app uses **React Context API** via `AppContext.js` to manage global state su
 - **State Management:** React Context API  
 - **Utilities:** [humanize-duration](https://www.npmjs.com/package/humanize-duration) – used to format course durations into a human-readable format
 
+## Installation / How to Run
+
+To run this project locally:
+
+1. Clone the repository:
+
+   #### `git clone https://github.com/AdrianaV1999/design-courses-site.git`
+
+2. Navigate into the project folder:
+
+   #### `cd design-courses-site`
+
+3. Install dependencies:
+
+   #### `npm install`
+
+4. Start the development server:
+
+   #### `npm run dev`
+
+This will start the app locally at: `http://localhost:5173` (default Vite port)
+
 ---
 
 This project highlights practical experience with React.js, authentication, routing, state management and responsive design.
